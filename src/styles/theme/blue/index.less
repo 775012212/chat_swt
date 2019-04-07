@@ -1,0 +1,69 @@
+@import "./variable-blue";
+
+.theme-blue {
+
+    .radio-group .radio-item .active,
+    #y-chat-footer .footer-big-input button,
+    #y-chat-header {
+        background-color: @primaryColor;
+        background-image: url(../../../assets/cardBg.png);
+        background-position: 50% 99%;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    .main-content-wrapper .message-right p {
+        background: @defaultGradient;
+    }
+
+    .select-btn-container .item {
+        &.blue,
+        &.message {
+            background: @defaultGradient;
+        }
+    }
+
+    .nav-bar .nav-item.active {
+        color: @primaryColor;
+    }
+    .test-item {
+        border-bottom-color: @primaryColor;
+    }
+
+    .loop-price-wrapper .btn-group .get-price-btn,
+    .ask-wrapper .ask-button button,
+    .concat-page .concat-form-btn-group .submit-btn,
+    .model-container .model-footer .confirm-btn,
+    .unread-count,
+    .broadcast-wrapper {
+        background: @primaryGradientColor;
+    }
+
+    .reservation-page {
+        .button,
+        .expert-cover,
+        .panel-title p {
+            background: @primaryGradientColor;
+        }
+    }
+
+    .radio-group .radio-item .active {
+        border-color: @primaryColor;
+    }
+
+    .reservation-page {
+        .day-item {
+            &::before {
+                background-color: @navLineColor;
+            }
+            &.active {
+                color: @navTextColor;
+
+                &::before {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

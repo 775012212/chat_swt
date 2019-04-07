@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <link rel="icon" href="/favicon.ico">
+    <title>西安画美医院</title>
+
+
+</head>
+<body>
+<noscript>
+    <strong>不好意思鸭，如果没有启用JavaScript，页面是无法正常运行哦。 请启用之后在继续呢~</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+<% if (VUE_APP_ENV === "production") { %>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.runtime.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-router@3.0.2/dist/vue-router.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuex@3.1.0/dist/vuex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
+<% } %>
+<script src="<%= BASE_URL %>config.js"></script>
+</body>
+</html>
