@@ -2,15 +2,15 @@ const CONFIG = {
     BASE            : {
         TYPE            : 'testSwt',
         // 快商通标识
-        PAGE_TAG        : '###信息流-西安眼鼻中心',
+        PAGE_TAG        : '###信息流-博爱医院口腔科',
         // 默认页 :0-4
         ROOT            : 1,
         // 页面标题
-        WEB_TITLE       : '西安画美123',
+        WEB_TITLE       : '博爱医院口腔科',
         // 头部LOGO
         HEADER_LOGO     : '',
         // 电话
-        TEL             : '029-88828888',
+        TEL             : '028-88613719',
         SHOW_TEL        : true,
         SHOW_FOOTER_LIST: [ 'chat' ],
         ROUTER          : [
